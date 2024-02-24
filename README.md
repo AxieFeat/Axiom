@@ -5,15 +5,9 @@ All information avaliable in wiki - axiom.arial.su
 
 # Gradle configuration
 
-Repository (Add it in your root build.gradle at the end of repositories):
+Repository:
 ````groovy
-dependencyResolutionManagement {
-	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-  repositories {
-		mavenCentral()
-		maven { url 'https://jitpack.io' }
-	}
-}
+maven { url 'https://jitpack.io' }
 ````
 
 Dependency:
