@@ -18,7 +18,7 @@ dependencyResolutionManagement {
 
 Dependency:
 ````groovy
-implementation 'com.github.AxieFeat:Axiom:1.0'
+implementation 'com.github.AxieFeat:Axiom:Tag'
 ````
 
 # Maven configuration
@@ -36,6 +36,6 @@ Dependency:
 <dependency>
     <groupId>com.github.AxieFeat</groupId>
     <artifactId>Axiom</artifactId>
-    <version>1.0</version>
+    <version>Tag</version>
 </dependency>
 ````
